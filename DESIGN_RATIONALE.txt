@@ -1,0 +1,60 @@
+सूर्यपुरा ग्राम विकास पोर्टल — Design Rationale (Skill Assessment Demo)
+================================================================================
+
+FORM FIELD — Short explanation (copy-paste ready, ~150 words)
+--------------------------------------------------------------------------------
+
+मैंने यह डिज़ाइन इसलिए बनाया क्योंकि ग्राम विकास पोर्टल को भरोसे और भावना दोनों
+चाहिए। Hero में राजेश वर्मा (ग्राम विकास राजदूत) से उपयोगकर्ता तुरंत जुड़ता है।
+पाँच pillar cards — शिक्षा, किसान, सड़क, पंचायत, डिजिटल पहचान — brief के theme
+को सीधे दिखाते हैं। Saffron, forest green और cream palette गर्म, premium और rural
+feel देती है, सस्ते सरकारी टेम्पलेट जैसी नहीं। Mobile-first layout, बड़े Hindi
+फ़ॉन्ट (Noto Sans Devanagari) और 44px+ tap targets ग्रामीण उपयोगकर्ताओं के लिए
+सुविधाजनक हैं। Impact stats और initiatives trust बनाते हैं। Footer में demo
+disclaimer है — सभी नाम/आंकड़े काल्पनिक हैं।
+
+I chose this design because a rural development portal must feel trustworthy and
+emotional. The hero leader humanizes the site; five pillar cards map directly to
+the brief themes. Warm saffron/green/cream palette feels premium, not generic
+gov-template. Mobile-first Hindi typography and large touch targets suit village
+users. Stats and initiative cards build credibility. Footer labels all content as
+fictional demo material.
+
+
+FULL RATIONALE
+--------------------------------------------------------------------------------
+
+1. Emotional trust
+   - Hero character (visionary rural leader) creates human connection
+   - Leader quote + portrait in spotlight section reinforce authenticity
+   - Impact statistics (98% attendance, ₹2.4Cr farmer aid, 24/7 helpline) prove outcomes
+
+2. Theme clarity (assessment brief alignment)
+   - Five pillars explicitly cover: शिक्षा, किसान, सड़क, पंचायत, डिजिटल पहचान
+   - Initiatives section shows real-world programs (mid-day meal tracking, Kisan helpline, e-Panchayat)
+   - Dual CTAs: explore schemes + create digital identity
+
+3. Premium rural aesthetic
+   - Avoided cold blue/gray government clichés
+   - Warm earth tones (saffron #E67E22, forest #2D6A4F, terracotta #C1440E, cream #FFFBF5)
+   - Soft shadows, rounded-2xl cards, generous whitespace
+   - Unsplash photography: fields, schools, panchayat — grounded imagery
+
+4. Mobile-first UX
+   - Stacked grid on small screens, 2-col on tablet, 3-col on desktop
+   - Hamburger nav with full-width mobile menu
+   - Base font 16px+, Hindi line-height 1.6+ for readability
+   - Sticky nav with backdrop blur for modern feel
+
+5. Social & export consistency
+   - Same design tokens on /export/hero, /export/post1, /export/post2
+   - Post 1: sunrise narrative "सूर्यपुरा में नया सूर्योदय"
+   - Post 2: farmer empowerment with helpline CTA
+   - Ensures brand consistency between website and social assets
+
+6. Demo safety
+   - Footer disclaimer: fictional names, photos, content for assessment only
+   - Registration CTA disabled with "Demo" label
+   - English labels sparingly (Visionary Rural Leader, Export Assets) for assessor clarity
+
+Estimated time for form: 6–12 Hours
